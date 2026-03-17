@@ -1,5 +1,6 @@
 /* ================================================
    Custom design — alessandrogiacardi.github.io
+   Nav colour is handled in _sass/minimal-mistakes/skins/_mint.scss
    ================================================ */
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Lora:ital,wght@0,400;0,600;1,400&display=swap');
@@ -13,22 +14,7 @@ body {
   line-height: 1.75;
 }
 
-/* ─────────────────────────────────────────
-   NAVIGATION — force white, no colour band
-   ───────────────────────────────────────── */
-.masthead,
-.masthead__inner-wrap,
-.greedy-nav,
-.greedy-nav__container {
-  background: #ffffff !important;
-  background-color: #ffffff !important;
-  box-shadow: none !important;
-}
-
-.masthead {
-  border-bottom: 1px solid #e8e8e8 !important;
-}
-
+/* --- Masthead title --- */
 .masthead__title a,
 .site-title {
   font-family: 'Lora', serif !important;
@@ -37,38 +23,18 @@ body {
   color: #1a1a1a !important;
 }
 
-.greedy-nav a,
-.greedy-nav .nav__items a {
+/* Nav link styling only — no background override (done in SCSS) */
+.greedy-nav a {
   color: #444 !important;
-  background: transparent !important;
-  background-color: transparent !important;
   font-size: 0.87em !important;
   font-weight: 500 !important;
   letter-spacing: 0.05em !important;
   text-transform: uppercase !important;
-  padding: 0.35em 0.75em !important;
-  border-radius: 3px !important;
-  transition: color 0.15s, background 0.15s !important;
 }
-
-.greedy-nav a:hover,
-.greedy-nav .nav__items a:hover {
-  color: #2c5f3e !important;
-  background-color: #f2f7f4 !important;
-}
-
-/* Remove any pill/badge highlight on active nav item */
-.greedy-nav .nav__item--active a,
-.masthead__menu-item--active a {
-  background: transparent !important;
-  color: #2c5f3e !important;
-  font-weight: 600 !important;
-}
-
-.greedy-nav__toggle svg { color: #444 !important; }
+.greedy-nav a:hover { color: #2c5f3e !important; }
 
 /* ─────────────────────────────────────────
-   SIDEBAR / AUTHOR PROFILE
+   SIDEBAR
    ───────────────────────────────────────── */
 .author__avatar img {
   border-radius: 50% !important;
@@ -100,44 +66,18 @@ body {
   color: #666 !important;
 }
 
-/* Sidebar links — text */
+.author__urls-wrapper li { line-height: 2.1 !important; }
+
 .author__urls a {
   font-size: 0.88em !important;
   color: #333 !important;
   text-decoration: none !important;
   border: none !important;
 }
-
 .author__urls a:hover { color: #2c5f3e !important; }
 
-.author__urls-wrapper li { line-height: 2.1 !important; }
+/* DO NOT override .ai or .fa here — let academicons/fontawesome load naturally */
 
-/* ── Academicons (Google Scholar, ORCID) ──
-   These use the .ai class from the academicons font.
-   Do NOT set color on the parent — only target the icon element. */
-.author__urls .ai {
-  font-size: 1.1em !important;
-  color: #4a7c59 !important;
-  visibility: visible !important;
-  display: inline-block !important;
-  width: 1em !important;
-  margin-right: 0.4em !important;
-}
-
-/* Font Awesome icons in sidebar */
-.author__urls .fa,
-.author__urls .fas,
-.author__urls .fab,
-.author__urls .far {
-  font-size: 1em !important;
-  color: #4a7c59 !important;
-  visibility: visible !important;
-  display: inline-block !important;
-  width: 1em !important;
-  margin-right: 0.4em !important;
-}
-
-/* Follow button */
 .author__urls-wrapper .btn {
   font-size: 0.84em !important;
   background: #f4f9f5 !important;
@@ -178,7 +118,6 @@ h1.page__title {
   padding-bottom: 0.4em !important;
 }
 
-/* Body links */
 a { color: #2c5f3e; text-decoration: none; transition: color 0.15s; }
 a:hover { color: #4a7c59; }
 
