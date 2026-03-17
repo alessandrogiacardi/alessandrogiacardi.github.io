@@ -82,6 +82,10 @@ author_profile: true
   <h3>"Bridging the Gap: The Impact of Compensatory Measures on Mountain Farming in Piedmont"</h3>
   <div class="coauthors">with Moino F., Califano G., and Cagliero R.</div>
   <div class="venue">Bio-Based and Applied Economics, 14(3): 39–49 · 2025</div>
+  <details>
+    <summary>Abstract</summary>
+    <div class="abstract-text">This  study  examines  the  impact  of  the  Rural  Development  Program  (RDP)  on  reducing  income  disparities  between  farms  in  mountainous  and  non-mountainous  areas  in  Piedmont,  Italy.  Using  Farm  Accounting  Data  Network  data  from  2012–2022,  the  analysis  focuses  on  cattle,  sheep  and  goats,  and  fruit  farms,  with  525  farms  (3,171  observations;  36%  in  mountainous  areas).  A  pooled  multivariate  regression  assesses  income  disparities  excluding  RDP  support,  RDP’s  effectiveness  in  mitigating  gaps,  and  the  role  of  compensatory  allowance.  The  findings  indicate  that  significant  income  disparities  are  primarily  observed  in  small  farms  specialized  in  cattle  and  sheep  and  goats,  with  mountain  farms  facing  a  net  shortfall  of  €1,319  and  €2,384  per  hectare,  respectively.  While  compensatory  allowance  support  helps  reduce  this  gap  –  by  8.93%  for  cattle  farms  and  5.28%  for  sheep  and  goat  farms  –  a  substantial  disparity  remains.  Bridging  the  gap  entirely  would  require  doubling  compensatory  payments  to  €340  per  hectare, though alternative strategies are discussed.</div>
+  </details>
   <div class="links">
     <a href="https://oaj.fupress.net/index.php/bae/article/view/16852/14563">Article</a>
     <a href="https://www.spreaker.com/episode/looking-for-equity-the-effects-of-compensatory-allowances-on-mountain-farming-in-piedmont--67863907" class="gray">Podcast</a>
@@ -120,7 +124,7 @@ author_profile: true
 
 <div class="paper wip">
   <h3>"Poverty &amp; Remittances"</h3>
-  <div class="coauthors">with Sylvie Lambert, Philippe De Vreyer, and Abla Safir</div>
+  <div class="coauthors">with  <a href="https://www.parisschoolofeconomics.eu/en/persons/sylvie-lambert/">Sylvie Lambert</a>, Philippe De Vreyer, and Abla Safir</div>
   <div class="venue">Work in progress</div>
 </div>
 
@@ -148,7 +152,7 @@ author_profile: true
   <div class="coauthors">with Bernaschi D., Caputo L., Di Renzo L., Felici F.B., et al.</div>
   <div class="venue">CURSA Pas(SAGGI), Vol. 10, No. 14 · Technical Report · 2024</div>
   <div class="links">
-    <a href="http://dx.doi.org/10.13140/RG.2.2.32159.16801">DOI</a>
+    <a href="http://dx.doi.org/10.13140/RG.2.2.32159.16801">PDF (Italian)</a>
   </div>
 </div>
 
