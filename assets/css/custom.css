@@ -1,128 +1,297 @@
-/* ── Light, clean academic style inspired by duncan-webb.com ── */
+/* ================================================
+   Custom design for alessandrogiacardi.github.io
+   Clean, elegant, academic — inspired by duncan-webb.com
+   ================================================ */
 
-/* Overall background & body text */
+/* --- Google Fonts --- */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Lora:ital,wght@0,400;0,600;1,400&display=swap');
+
+/* --- Base --- */
 body {
-  background-color: #ffffff;
-  color: #2c2c2c;
-  font-family: "Georgia", serif;
+  background: #ffffff;
+  color: #1a1a1a;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.75;
 }
 
-/* Navigation bar — light grey instead of dark */
+/* --- Navigation --- */
 .masthead {
-  background-color: #f7f7f5 !important;
-  border-bottom: 1px solid #e0ddd8;
+  background: #ffffff !important;
+  border-bottom: 1px solid #ebebeb !important;
   box-shadow: none !important;
 }
 
-.masthead__menu-item a,
-.masthead__title a {
-  color: #2c2c2c !important;
-  font-weight: 500;
-  letter-spacing: 0.03em;
+.masthead__inner-wrap {
+  padding: 0.8em 1em;
 }
 
-.masthead__menu-item a:hover {
-  color: #7a9cb8 !important;
+.masthead__title a,
+.site-title {
+  font-family: 'Lora', serif !important;
+  font-size: 1.05em !important;
+  font-weight: 600 !important;
+  color: #1a1a1a !important;
+  letter-spacing: 0.01em;
 }
 
-/* Sidebar author profile */
-.sidebar .author__name {
-  color: #2c2c2c;
-  font-size: 1.1em;
+.greedy-nav a {
+  color: #444 !important;
+  font-size: 0.88em !important;
+  font-weight: 500 !important;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  padding: 0.4em 0.8em !important;
+  border-radius: 3px;
+  transition: background 0.15s, color 0.15s;
 }
 
-.sidebar .author__bio {
-  color: #666;
-  font-size: 0.85em;
+.greedy-nav a:hover,
+.greedy-nav .nav__item--active a {
+  color: #1a1a1a !important;
+  background: #f4f4f4 !important;
 }
 
-/* Author avatar — circular, soft border */
+/* --- Sidebar / Author --- */
+.sidebar {
+  font-size: 0.88em;
+}
+
 .author__avatar img {
-  border-radius: 50%;
-  border: 3px solid #e8e4df;
-  max-width: 160px;
+  border-radius: 50% !important;
+  border: 3px solid #f0ede8 !important;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08) !important;
+  width: 140px !important;
+  max-width: 140px !important;
 }
 
-/* Links — muted dusty blue, not electric */
+.author__name {
+  font-family: 'Lora', serif !important;
+  font-size: 1.1em !important;
+  font-weight: 600 !important;
+  color: #1a1a1a !important;
+  margin-top: 0.6em !important;
+}
+
+.author__bio {
+  font-size: 0.82em !important;
+  color: #777 !important;
+  font-style: italic;
+  margin-bottom: 0.8em !important;
+}
+
+.author__urls a {
+  font-size: 0.82em !important;
+  color: #555 !important;
+  border-bottom: none !important;
+}
+
+.author__urls a:hover {
+  color: #b5804e !important;
+}
+
+.author__urls-wrapper .btn {
+  font-size: 0.8em !important;
+  background: #f4f4f4 !important;
+  color: #444 !important;
+  border: 1px solid #e0e0e0 !important;
+  border-radius: 3px !important;
+  box-shadow: none !important;
+}
+
+/* --- Main content area --- */
+.page__content {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.95em;
+  color: #222;
+  line-height: 1.8;
+}
+
+.page__content p {
+  margin-bottom: 1.1em;
+}
+
+/* --- Page title --- */
+h1.page__title {
+  font-family: 'Lora', serif !important;
+  font-size: 1.5em !important;
+  font-weight: 600 !important;
+  color: #1a1a1a !important;
+  border-bottom: 1.5px solid #ebebeb;
+  padding-bottom: 0.4em;
+  margin-bottom: 1.2em;
+  letter-spacing: -0.01em;
+}
+
+/* --- Section headings --- */
+.page__content h2 {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.72em;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: #999;
+  margin-top: 2.5em;
+  margin-bottom: 1em;
+  border-bottom: 1px solid #f0f0f0;
+  padding-bottom: 0.5em;
+}
+
+.page__content h3 {
+  font-family: 'Lora', serif;
+  font-size: 1em;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin-top: 0;
+  margin-bottom: 0.2em;
+}
+
+/* --- Links --- */
 a {
-  color: #5a89a8;
+  color: #b5804e;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.15s;
 }
 
 a:hover {
-  color: #3a6a88;
-  text-decoration: underline;
+  color: #8a5e32;
+  border-bottom-color: #d4a574;
+  text-decoration: none;
 }
 
-/* Page titles */
-h1.page__title,
-#page-title {
-  font-size: 1.4em;
-  font-weight: 600;
-  color: #2c2c2c;
-  border-bottom: 1px solid #e8e4df;
-  padding-bottom: 0.4em;
-  margin-bottom: 1em;
-}
-
-/* Section headings */
-h2 {
-  font-size: 1.05em;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: #7a9cb8;
-  margin-top: 2em;
-  margin-bottom: 0.8em;
-  border-bottom: 1px solid #e8e4df;
-  padding-bottom: 0.3em;
-}
-
-/* Research paper cards */
+/* --- Research paper cards --- */
 .paper {
-  background: #faf9f7 !important;
-  border-left: 3px solid #7a9cb8 !important;
-  border-radius: 0 4px 4px 0;
+  background: #fdfcfb !important;
+  border: 1px solid #ebebeb !important;
+  border-left: 3px solid #c9a878 !important;
+  padding: 1.1em 1.3em !important;
+  margin-bottom: 1em !important;
+  border-radius: 0 5px 5px 0 !important;
+  transition: box-shadow 0.2s;
+}
+
+.paper:hover {
+  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+}
+
+.paper h3 {
+  font-family: 'Lora', serif !important;
+  font-size: 0.95em !important;
+  font-weight: 600 !important;
+  color: #1a1a1a !important;
+  margin: 0 0 0.25em 0 !important;
+}
+
+.paper .coauthors {
+  color: #666 !important;
+  font-size: 0.85em !important;
+  margin-bottom: 0.3em !important;
 }
 
 .paper .venue {
-  color: #7a9cb8 !important;
+  color: #b5804e !important;
+  font-size: 0.82em !important;
+  font-weight: 500 !important;
+  margin-bottom: 0.5em !important;
+}
+
+.paper .abstract {
+  font-size: 0.85em !important;
+  color: #555 !important;
+  margin-top: 0.6em !important;
+  line-height: 1.65 !important;
 }
 
 .paper .links a {
-  background: #7a9cb8 !important;
+  display: inline-block !important;
+  margin-right: 0.5em !important;
+  margin-top: 0.6em !important;
+  font-size: 0.78em !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.04em !important;
+  text-transform: uppercase !important;
+  background: #1a1a1a !important;
+  color: #ffffff !important;
+  padding: 4px 12px !important;
+  border-radius: 3px !important;
+  text-decoration: none !important;
+  border: none !important;
+  transition: background 0.15s !important;
 }
 
 .paper .links a:hover {
-  background: #5a89a8 !important;
+  background: #b5804e !important;
+  border: none !important;
 }
 
 .paper .links a.gray {
-  background: #b0aaa3 !important;
+  background: #ccc !important;
+  color: #555 !important;
 }
 
-/* CV button */
+.paper .links a.gray:hover {
+  background: #bbb !important;
+}
+
+.wip {
+  border-left-color: #ddd !important;
+  background: #fafafa !important;
+}
+
+.wip .venue {
+  color: #aaa !important;
+}
+
+/* --- CV Button --- */
 .btn--primary {
-  background-color: #7a9cb8 !important;
-  border-color: #7a9cb8 !important;
-  color: #fff !important;
-  border-radius: 4px;
-  font-size: 1em;
-  padding: 0.7em 1.8em;
+  font-family: 'Inter', sans-serif !important;
+  font-size: 0.85em !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.06em !important;
+  text-transform: uppercase !important;
+  background: #1a1a1a !important;
+  color: #ffffff !important;
+  border: none !important;
+  border-radius: 4px !important;
+  padding: 0.75em 2em !important;
+  transition: background 0.2s !important;
+  box-shadow: none !important;
 }
 
 .btn--primary:hover {
-  background-color: #5a89a8 !important;
-  border-color: #5a89a8 !important;
+  background: #b5804e !important;
+  color: #fff !important;
 }
 
-/* Footer */
+/* --- Footer --- */
 .page__footer {
-  background-color: #f7f7f5;
-  color: #999;
-  border-top: 1px solid #e0ddd8;
-  font-size: 0.8em;
+  background: #fafafa !important;
+  border-top: 1px solid #ebebeb !important;
+  color: #bbb !important;
+  font-size: 0.75em !important;
 }
 
 .page__footer a {
-  color: #999;
+  color: #bbb !important;
+}
+
+.page__footer a:hover {
+  color: #888 !important;
+  border: none !important;
+}
+
+/* --- Horizontal rule --- */
+hr {
+  border: none;
+  border-top: 1px solid #f0f0f0;
+  margin: 2em 0;
+}
+
+/* --- Responsive tweaks --- */
+@media (max-width: 768px) {
+  .author__avatar img {
+    width: 100px !important;
+  }
 }
