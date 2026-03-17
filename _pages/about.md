@@ -26,6 +26,6 @@ hosted by the [NOVAFRICA](https://novafrica.org/) center.
 
 ---
 
-**Contact:** alessandro.giacardi[at]uniroma1.it  
+**Contact:** alessandro.giacardi[at]uniroma1.it, giacardi.alessandro[at]gmail.com
 Department of Social Sciences and Economics  
 Sapienza University of Rome, Piazzale Aldo Moro 5, 00185 Rome, Italy
