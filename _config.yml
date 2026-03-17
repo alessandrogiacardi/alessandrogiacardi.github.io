@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "mint"
+site_theme               : "default"
 #minimal_mistakes_skin    : "air"
 title                    : "Alessandro Giacardi"
 title_separator          : "-"
