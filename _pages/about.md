@@ -29,9 +29,11 @@ hosted by the [NOVAFRICA](https://novafrica.org/) center.
 
 **Contact:** 
 
-alessandro.giacardi[at]uniroma1.it - giacardi.alessandro[at]gmail.com
+**Contact:** alessandro.giacardi[at]uniroma1.it · giacardi.alessandro[at]gmail.com
 
+<p style="font-size:0.82em; color:#777; margin-top:0.2em;">
+Department of Social Sciences and Economics<br>
+Sapienza University of Rome<br>
+Piazzale Aldo Moro 5, 00185 Rome, Italy
+</p>
 
-
-Department of Social Sciences and Economics
-Sapienza University of Rome, Piazzale Aldo Moro 5, 00185 Rome, Italy
