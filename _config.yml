@@ -23,7 +23,7 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "images/IMG_5673.jpg"
   name             : "Alessandro Giacardi"
   pronouns         : "he/his"  
   bio              : "PhD Candidate in Development Economics · Sapienza University of Rome"
