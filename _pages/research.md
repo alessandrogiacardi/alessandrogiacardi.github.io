@@ -45,7 +45,7 @@ author_profile: true
 </div>
 
 <div class="paper">
-  <h3>"Food Insecurity Experience in Italy: a Regional and Local Study Using the Food Insecurity Experience Scale"</h3>
+  <h3>"Testing the Food Insecurity Experience Scale across Urban and Regional Contexts in Italy"</h3>
   <div class="coauthors">with Sara Viviani, <a href="https://scholar.google.it/citations?user=nZRAeUYAAAAJ&hl=it">Daniela Bernaschi</a>, <a href="https://scholar.google.it/citations?user=ruYQnswAAAAJ&hl=it">Carlo Cafiero</a>, and Davide Marino</div>
   <div class="venue">Under revision · Draft available upon request</div>
   <div class="abstract">We examine food insecurity in Italy using the FIES at national and local level (Rome, 2021–2025). While ~60% of respondents report no food insecurity, approximately 13.5% experience it nationally vs. 7.1% in Rome. Our findings support the case for localized FI monitoring systems in high-income countries.</div>
@@ -73,9 +73,9 @@ author_profile: true
 <div class="paper">
   <h3>"The State of Food Poverty in the Metropolitan City of Rome in the Italian Context"</h3>
   <div class="coauthors">with Felici F.B. (Eds), Bernaschi D., Caputo L., Manetti I., Marino D., Minotti B., Orlandi L., Scannavacca F.</div>
-  <div class="venue">CURSA Pas(SAGGI), Vol. 11, No. 15 · 2025, Technical report</div>
+  <div class="venue">CURSA Pas(SAGGI), Vol. 11, No. 15 · 2025</div>
   <div class="links">
-    <a href="https://www.cursa.it/wp-content/uploads/2025/10/REPORT-OIPA-2025.pdf">PDF (Italian)</a>
+    <a href="https://www.cursa.it/wp-content/uploads/2025/10/REPORT-OIPA-2025.pdf">Technical report . PDF (Italian)</a>
   </div>
 </div>
 
