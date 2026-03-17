@@ -56,6 +56,10 @@
       {% if author.orcid %}
         <li><a href="{{ author.orcid }}"><i class="ai ai-orcid ai-fw icon-pad-right"></i>ORCID</a></li>
       {% endif %}
+      {% if author.repec %}
+      <li><a href="https://ideas.repec.org/f/{{ author.repec }}.html">
+      <i class="ai ai-ideas-repec ai-fw icon-pad-right"></i>IDEAS/RePEc</a></li>
+      {% endif %}
       {% if author.pubmed %}
         <li><a href="{{ author.pubmed }}"><i class="ai ai-pubmed ai-fw icon-pad-right"></i>PubMed</a></li>
       {% endif %}                        
