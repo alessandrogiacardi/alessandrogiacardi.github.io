@@ -85,6 +85,20 @@ body {
   box-shadow: none !important;
 }
 
+/* Force light mode regardless of OS setting */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --global-bg-color: #ffffff !important;
+    --global-text-color: #1a1a1a !important;
+    --global-masthead-link-color: #444444 !important;
+    --global-link-color: #2c5f3e !important;
+  }
+  body, .masthead, .greedy-nav, .masthead__inner-wrap {
+    background: #ffffff !important;
+    background-color: #ffffff !important;
+    color: #1a1a1a !important;
+  }
+}
 /* ─────────────────────────────────────────
    MAIN CONTENT
    ───────────────────────────────────────── */
