@@ -134,10 +134,11 @@ author_profile: true
 <div class="paper wip">
   <h3> Mind the Gap: Climate Change Perception &amp; Aspirations in SSA </h3>
   <div class="coauthors">with <a href = "https://sites.google.com/view/estherdelesalle/home">Esther Delesalle</a>, and <a href = "http://www.thomascalvo.com/">Thomas Calvo </a </div>
-   <div class="venue">Work in progress</div>
+    <div class="venue">Work in progress</div>
    <div class="links">
     <a href="mailto:alessandro.giacardi@uniroma1.it" class="gray">Draft upon request</a>
   </div>
+</div>
 </div>
 
 ---
