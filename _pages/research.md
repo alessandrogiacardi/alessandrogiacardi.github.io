@@ -91,10 +91,6 @@ author_profile: true
   </div>
 </div>
 
-
-  </div>
-</div>
-
 <div class="paper">
   <h3>Bridging the Gap: The Impact of Compensatory Measures on Mountain Farming in Piedmont</h3>
   <div class="coauthors">with Moino F., Califano G., and Cagliero R.</div>
