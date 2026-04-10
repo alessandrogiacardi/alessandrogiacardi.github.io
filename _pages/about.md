@@ -22,7 +22,7 @@ hosted by the [NOVAFRICA](https://novafrica.org/) center.
 📋 [List of dev/agri/envi conferences](https://docs.google.com/spreadsheets/d/1qkU_YiUGi4qB43KIGUyaJ2FUsheD_ldyCapBxzrLc3I/edit?usp=sharing) 
 — please contribute!
 
-**When I'm not working**, you can find me cooking, rowing, or tackling Arabic.
+When I'm not working, you can find me cooking, rowing, or tackling Arabic.
 
 ---
 
