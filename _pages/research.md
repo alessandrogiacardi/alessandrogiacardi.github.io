@@ -123,7 +123,7 @@ author_profile: true
  </details>
   <div class="links">
     <a href="https://www.nature.com/articles/s41598-026-45827-0">Article</a>
-    <a href="[https://www.spreaker.com/episode/looking-for-equity-the-effects-of-compensatory-allowances-on-mountain-farming-in-piedmont--67863907](https://go.nature.com/4vJroWb)" class="gray">Nature Research Communities Blog</a>
+    <a href="https://go.nature.com/4vJroWb](https://go.nature.com/4vJroWb" class="gray">Nature Research Communities Blog</a>
   </div>
 </div>
 
