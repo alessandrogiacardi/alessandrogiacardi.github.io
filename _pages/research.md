@@ -122,7 +122,7 @@ author_profile: true
     <div class="abstract-text">This study addresses a central measurement challenge in high-income countries: how to detect and characterize food insecurity (FI) when national prevalence is low but territorially uneven. Using original survey data collected across Italian regions and in Rome, we assess the validity and local applicability of the Food Insecurity Experience Scale (FIES). The analysis yields estimated prevalence of moderate or severe FI of approximately 13.5% in the regional sample and 7.1% in Rome. Although these figures are application-specific and should not be read as population-level prevalence estimates, they are consistent with complementary territorial indicators documenting substantial variation across municipalities and socio-demographic groups. The study demonstrates the methodological feasibility of deploying a globally validated experience-based instrument in a sub-national, high-income context, and illustrates how such applications can complement - without replacing - official statistics. The results support the case for localized FI monitoring capable of informing targeted interventions in contexts where vulnerability is spatially concentrated rather than nationally pervasive.</div>
  </details>
   <div class="links">
-    <a href="[https://doi.org/10.1038/s41598-026-45827-0](https://doi.org/10.1038/s41598-026-45827-0)">Article</a>
+    <a href="https://doi.org/10.1038/s41598-026-45827-0">Article</a>
     <a href="https://go.nature.com/4vJroWb" class="gray">Nature Research Communities Blog</a>
   </div>
 </div>
