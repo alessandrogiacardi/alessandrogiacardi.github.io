@@ -9,15 +9,12 @@ redirect_from:
 ---
 
 I'm a PhD Candidate in [Development Economics](https://phd.uniroma1.it/web/SOCIAL-AND-ECONOMIC-SCIENCES_nD3759_EN.aspx) 
-at Sapienza University of Rome, and a research fellow at the 
+at Sapienza University of Rome, and a Research Fellow at the 
 [Food Insecurity and Poverty Observatory Lab](https://www.cursa.it/project/progetto-osservatorio-sullinsicurezza-alimentare-nella-citta-metropolitana-di-roma-capitale-2022/).
 
-My broader research interests lie in the **micro-level determinants and channels of climate adaptation**, 
-with particular attention to risk perception, gendered dynamics, and local risk management mechanisms.
+My broader research interests lie in the **micro-level determinants and channels of adaptation to co-variate shocks**, with particular attention to risk perception, gendered dynamics, and local risk management mechanisms.
 
-In 2024, I visited the [Paris School of Economics (PSE)](https://development.parisschoolofeconomics.eu/en/) 
-within the Development Group. In 2025, I am visiting the Nova School of Business and Economics, 
-hosted by the [NOVAFRICA](https://novafrica.org/) center.
+In 2025/2026, I visited the Nova School of Business and Economics, hosted by the NOVAFRICA center and Catia Batista. In 2024, I visited the Paris School of Economics (PSE) within the Development Group.
 
 📋 [List of dev/agri/envi conferences](https://docs.google.com/spreadsheets/d/1qkU_YiUGi4qB43KIGUyaJ2FUsheD_ldyCapBxzrLc3I/edit?usp=sharing) 
 — please contribute!
