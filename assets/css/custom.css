@@ -99,6 +99,16 @@ body {
     color: #1a1a1a !important;
   }
 }
+
+@media screen and (max-width: 1023px) {
+  .author__urls {
+    display: block !important;
+    position: relative !important;
+    margin-top: 10px !important;
+    z-index: 100 !important;
+  }
+}
+
 /* ─────────────────────────────────────────
    MAIN CONTENT
    ───────────────────────────────────────── */
