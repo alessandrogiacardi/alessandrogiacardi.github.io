@@ -173,7 +173,7 @@ author_profile: true
 </div>
 
 <div class="paper">
-  <h3>""</h3>
+  <h3>"The State of Food Poverty in the Metropolitan City of Rome within the Italian case. Report 2025"</h3>
   <div class="coauthors">with Felici F.B. (Eds), Bernaschi D., Caputo L., Felici F.B., Manetti I., Minotti B., Orlandi L., Scannavacca F.</div>
   <div class="venue">CURSA Pas(SAGGI), Vol. 11, No. 15 · Technical Report · 2025</div>
   <div class="links">
@@ -182,7 +182,7 @@ author_profile: true
 </div>
 
 <div class="paper">
-  <h3>"The State of Food Poverty in the Metropolitan City of Rome within the Italian case Report 2024"</h3>
+  <h3>"The State of Food Poverty in the Metropolitan City of Rome within the Italian case. Report 2024"</h3>
   <div class="coauthors">with Bernaschi D., Caputo L., Di Renzo L., Felici F.B., et al.</div>
   <div class="venue">CURSA Pas(SAGGI), Vol. 10, No. 14 · Technical Report · 2024</div>
   <div class="links">
