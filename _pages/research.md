@@ -87,7 +87,7 @@ author_profile: true
     <div class="abstract-text">We investigate how natural and climate-driven disasters affect firm-level innovation in China (1998–2007). Merging patent filings, firm financials, and geocoded disaster events, we use a staggered Difference-in-Differences framework and find heterogeneous innovation responses: large, cash-rich firms increase patenting persistently, while financially constrained firms and SOEs remain largely unaffected. Regional credit availability and environmental regulation further shape outcomes.</div>
   </details>
   <div class="links">
-    <a href="mailto:alessandro.giacardi@uniroma1.it" class="gray">Draft upon request</a>
+    <a href="https://ideas.repec.org/p/mse/cesdoc/26009.html">WP IDEAS</a>
   </div>
 </div>
 
