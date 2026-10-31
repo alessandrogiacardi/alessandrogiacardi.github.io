@@ -22,8 +22,6 @@ redirect_from:
   <p class="eyebrow">A little more about me</p>
 
   <p>In 2025/2026, I visited NOVA School of Business and Economics, hosted by NOVAFRICA. In 2024, I visited the Paris School of Economics within the Development Group.</p>
-
-  <p>I have previously worked closely with CREA and several institutions and organizations, including the European Parliament, the Italian Parliament, UNESCO, and the Stockholm Environment Institute.</p>
-
+  <p>I have previously worked closely with national research communities (CREA) and several institutions and organizations (including the European Parliament, the Italian Parliament, UNESCO, and the Stockholm Environment Institute).</p>
   <p>Outside work, you can find me cooking, rowing, or tackling Arabic.</p>
 </section>
