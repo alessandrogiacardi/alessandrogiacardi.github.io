@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ page.title }}{% unless page.permalink == '/' %} · {{ site.title }}{% endunless %}</title>
+<meta name="description" content="{{ page.description | default: site.description | escape }}">
+<link rel="canonical" href="{{ page.url | absolute_url }}">
+<link rel="icon" href="{{ '/images/favicon.ico' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/academic.css' | relative_url }}">
+</head>
+<body>
+<a class="skip" href="#content">Skip to content</a>
+<header class="header wrap">
+<a class="wordmark" href="{{ '/' | relative_url }}">Alessandro Giacardi<span>Development economics</span></a>
+<nav aria-label="Main navigation">
+<a href="{{ '/' | relative_url }}"{% if page.permalink == '/' %} aria-current="page"{% endif %}>Home</a>
+<a href="{{ '/research/' | relative_url }}"{% if page.permalink == '/research/' %} aria-current="page"{% endif %}>Research</a>
+<a href="{{ '/teaching/' | relative_url }}"{% if page.permalink == '/teaching/' %} aria-current="page"{% endif %}>Teaching</a>
+</nav>
+</header>
+<main id="content" class="wrap" tabindex="-1">{{ content }}</main>
+<footer class="footer wrap" id="contact">
+<div class="footer-top"><div><p class="eyebrow">Get in touch</p><h2>Contact</h2><a href="mailto:alessandro.giacardi@uniroma1.it">alessandro.giacardi@uniroma1.it</a><br><a href="mailto:giacardi.alessandro@gmail.com">giacardi.alessandro@gmail.com</a></div>
+<address>Department of Social Sciences and Economics<br>Sapienza University of Rome<br>Piazzale Aldo Moro 5<br>00185 Rome, Italy</address></div>
+<div class="profiles" aria-label="Academic and professional profiles">
+{% for profile in site.data.profile_links %}<a href="{{ profile.url | escape }}"><span class="profile-icon {{ profile.icon }}" aria-hidden="true"></span><span>{{ profile.label | escape }}</span></a>{% endfor %}
+</div>
+<figure class="stripes"><a href="https://showyourstripes.info/s/europe/italy"><img src="{{ '/images/italy_stripes.png' | relative_url }}" alt="Warming stripes for Italy, 1850–2024" loading="lazy"></a><figcaption>Italy, 1850–2024 · <a href="https://showyourstripes.info">#ShowYourStripes</a> · Ed Hawkins · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></figcaption></figure>
+<p class="copyright">© {{ 'now' | date: '%Y' }} Alessandro Giacardi · Hosted on GitHub Pages</p>
+</footer>
+</body></html>

@@ -1,117 +1,13 @@
 ---
-layout: archive
+layout: academic
 title: "Research"
 permalink: /research/
-author_profile: true
+author_profile: false
+description: "Working papers, publications, and ongoing research by Alessandro Giacardi."
 ---
-
-<style>
-/* ── Paper cards ── */
-.paper {
-  background: #f9fbf9;
-  border: 1px solid #e0ebe0;
-  border-left: 3px solid #4a7c59;
-  padding: 1em 1.3em;
-  margin-bottom: 1.1em;
-  border-radius: 0 5px 5px 0;
-  transition: box-shadow 0.2s;
-}
-.paper:hover { box-shadow: 0 2px 10px rgba(74,124,89,0.10); }
-.paper h3 { margin: 0 0 0.2em 0; font-size: 0.97em; font-weight: 700; color: #1a1a1a; }
-.paper .coauthors { color: #555; font-size: 0.87em; margin-bottom: 0.25em; }
-.paper .venue { color: #4a7c59; font-size: 0.84em; font-weight: 600; margin-bottom: 0.4em; }
-
-/* ── Collapsible abstract ── */
-.paper details { margin-top: 0.5em; }
-.paper details summary {
-  font-size: 0.8em;
-  font-weight: 600;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  color: #4a7c59;
-  cursor: pointer;
-  display: inline-block;
-  padding: 2px 0;
-  border-bottom: 1px solid transparent;
-  transition: border-color 0.15s;
-  list-style: none;
-}
-.paper details summary::-webkit-details-marker { display: none; }
-.paper details summary::before { content: "▸  "; font-size: 0.85em; }
-.paper details[open] summary::before { content: "▾  "; }
-.paper details summary:hover { border-bottom-color: #4a7c59; }
-.paper details .abstract-text {
-  font-size: 0.87em;
-  color: #444;
-  line-height: 1.65;
-  margin-top: 0.5em;
-  padding-left: 0.5em;
-  border-left: 2px solid #c8ddc8;
-}
-
-/* ── Link buttons ── */
-.paper .links a {
-  display: inline-block;
-  margin-right: 0.5em;
-  margin-top: 0.55em;
-  font-size: 0.76em;
-  font-weight: 600;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  background: #2c5f3e;
-  color: #fff !important;
-  padding: 3px 11px;
-  border-radius: 3px;
-  text-decoration: none !important;
-  border: none !important;
-  transition: background 0.15s;
-}
-.paper .links a:hover { background: #4a7c59 !important; border: none !important; }
-.paper .links a.gray { background: #aaa !important; color: #fff !important; }
-.paper .links a.gray:hover { background: #888 !important; }
-
-/* ── Work in progress cards ── */
-.wip { border-left-color: #ccc; background: #fafafa; }
-.wip .venue { color: #aaa; }
-</style>
-
-
-## Working Papers
-
-<div class="paper">
-  <h3> Disasters and Innovation: Firm-Level Evidence from China  </h3>
-  <div class="coauthors">with <a href="https://www.pantheonsorbonne.fr/page-perso/maurelm">Mathilde Maurel</a> and <a href="https://coda.io/@thomas-pernet/thomas-portfolio">Thomas Pernet</a></div>
-  <div class="venue">Working Paper</div>
-  <details>
-    <summary>Abstract</summary>
-    <div class="abstract-text"> We investigate how natural and climate-driven disasters affect firm-level innovation in China (1998–2007). Merging patent filings, firm financials, and geocoded disaster events, we use a staggered Difference-in-Differences framework and find heterogeneous innovation responses: large, cash-rich firms increase patenting persistently, while financially constrained firms and SOEs remain largely unaffected. Regional credit availability and environmental regulation further shape outcomes.</div>
-  </details>
-  <div class="links">
-    <a href="https://ideas.repec.org/p/mse/cesdoc/26009.html"> IDEAS/RePEc Working paper</a>
-  </div>
-</div>
-
-<div class="paper wip">
-  <h3> Poverty &amp; Remittances: Evidence from Senegal </h3>
-  <div class="coauthors">with  <a href="https://www.parisschoolofeconomics.eu/en/persons/sylvie-lambert/">Sylvie Lambert</a>, <a href="https://dauphine.psl.eu/recherche/cvtheque/profil/de-vreyer-philippe">Philippe De Vreyer</a>, and Abla Safir</div>
-  <div class="venue">Work in progress</div>
-   <div class="links">
-    <a href="mailto:alessandro.giacardi@uniroma1.it" class="gray">Draft upon request</a>
-  </div>
-</div>
-
-<div class="paper wip">
-  <h3> Mind the Gap: Climate Change Perceptions across SSA </h3>
-  <div class="coauthors">with <a href="https://sites.google.com/view/estherdelesalle/home">Esther Delesalle</a>, and <a href="http://www.thomascalvo.com/">Thomas Calvo</a></div>
-  <div class="venue">Work in progress</div>
-  <div class="links">
-    <a href="mailto:alessandro.giacardi@uniroma1.it" class="gray">Draft upon request</a>
-  </div>
-</div>
-
----
-
-## Publications
+<div class="page-heading"><p class="eyebrow">Papers &amp; projects</p><h1>Research</h1><p>My work examines adaptation to shocks, risk perception, food insecurity, and agricultural policy.</p></div>
+<section class="research-section" id="publications">
+<h2>Journal publications</h2>
 
 <div class="paper">
   <h3>Testing the Food Insecurity Experience Scale across Urban and Regional Contexts in Italy</h3>
@@ -141,9 +37,33 @@ author_profile: true
   </div>
 </div>
 
----
 
-## Reports &amp; Non-Peer-Reviewed Publications
+</section>
+
+<section class="research-section" id="chapters">
+<h2>Book chapters</h2>
+
+<div class="paper">
+  <h3>"The State of the Phenomenon in Italy" (Ch. 4)</h3>
+  <div class="coauthors">with Minotti B., Cafiero C., and Bernaschi D.</div>
+  <div class="venue">In: Marino D., Bernaschi D., &amp; Felici F.B. (Eds.), <em>Poverty and food insecurity in Italy: From measurement to policy</em>. FrancoAngeli, 2025. ISBN: 9788835174455</div>
+  <div class="links">
+    <a href="https://www.francoangeli.it/Libro/Povert%C3%A0-e-insicurezza-alimentare-in-Italia-Dalla-misurazione-alle-politiche?Id=30045">E-book</a>
+  </div>
+</div>
+
+<div class="paper">
+  <h3>"The Perception of Food Insecurity in Rome" (Ch. 6)</h3>
+  <div class="coauthors">with Bernaschi D. and Cafiero C.</div>
+  <div class="venue">In: Marino D., Bernaschi D., &amp; Felici F.B. (Eds.), <em>Poverty and food insecurity in Italy: From measurement to policy</em>. FrancoAngeli, 2025. ISBN: 9788835174455</div>
+  <div class="links">
+    <a href="https://www.francoangeli.it/Libro/Povert%C3%A0-e-insicurezza-alimentare-in-Italia-Dalla-misurazione-alle-politiche?Id=30045">E-book</a>
+  </div>
+</div>
+</section>
+
+<section class="research-section" id="reports">
+<h2>Reports &amp; other publications</h2>
 
 <div class="paper">
   <h3>"The State of Food Poverty in the Metropolitan City of Rome. Report 2026"</h3>
@@ -208,24 +128,44 @@ author_profile: true
   </div>
 </div>
 
----
 
-## Book Chapters
+</section>
+
+<section class="research-section" id="working-papers">
+<h2>Working papers &amp; work in progress</h2>
 
 <div class="paper">
-  <h3>"The State of the Phenomenon in Italy" (Ch. 4)</h3>
-  <div class="coauthors">with Minotti B., Cafiero C., and Bernaschi D.</div>
-  <div class="venue">In: Marino D., Bernaschi D., &amp; Felici F.B. (Eds.), <em>Poverty and food insecurity in Italy: From measurement to policy</em>. FrancoAngeli, 2025. ISBN: 9788835174455</div>
+  <h3> Disasters and Innovation: Firm-Level Evidence from China  </h3>
+  <div class="coauthors">with <a href="https://www.pantheonsorbonne.fr/page-perso/maurelm">Mathilde Maurel</a> and <a href="https://coda.io/@thomas-pernet/thomas-portfolio">Thomas Pernet</a></div>
+  <div class="venue">Working Paper</div>
+  <details>
+    <summary>Abstract</summary>
+    <div class="abstract-text"> We investigate how natural and climate-driven disasters affect firm-level innovation in China (1998–2007). Merging patent filings, firm financials, and geocoded disaster events, we use a staggered Difference-in-Differences framework and find heterogeneous innovation responses: large, cash-rich firms increase patenting persistently, while financially constrained firms and SOEs remain largely unaffected. Regional credit availability and environmental regulation further shape outcomes.</div>
+  </details>
   <div class="links">
-    <a href="https://www.francoangeli.it/Libro/Povert%C3%A0-e-insicurezza-alimentare-in-Italia-Dalla-misurazione-alle-politiche?Id=30045">E-book</a>
+    <a href="https://ideas.repec.org/p/mse/cesdoc/26009.html"> IDEAS/RePEc Working paper</a>
   </div>
 </div>
 
-<div class="paper">
-  <h3>"The Perception of Food Insecurity in Rome" (Ch. 6)</h3>
-  <div class="coauthors">with Bernaschi D. and Cafiero C.</div>
-  <div class="venue">In: Marino D., Bernaschi D., &amp; Felici F.B. (Eds.), <em>Poverty and food insecurity in Italy: From measurement to policy</em>. FrancoAngeli, 2025. ISBN: 9788835174455</div>
-  <div class="links">
-    <a href="https://www.francoangeli.it/Libro/Povert%C3%A0-e-insicurezza-alimentare-in-Italia-Dalla-misurazione-alle-politiche?Id=30045">E-book</a>
+
+<span id="work-in-progress" class="anchor-target" aria-hidden="true"></span>
+<div class="paper wip">
+  <h3> Poverty &amp; Remittances: Evidence from Senegal </h3>
+  <div class="coauthors">with  <a href="https://www.parisschoolofeconomics.eu/en/persons/sylvie-lambert/">Sylvie Lambert</a>, <a href="https://dauphine.psl.eu/recherche/cvtheque/profil/de-vreyer-philippe">Philippe De Vreyer</a>, and Abla Safir</div>
+  <div class="venue">Work in progress</div>
+   <div class="links">
+    <a href="mailto:alessandro.giacardi@uniroma1.it" class="gray">Draft upon request</a>
   </div>
 </div>
+
+<div class="paper wip">
+  <h3> Mind the Gap: Climate Change Perceptions across SSA </h3>
+  <div class="coauthors">with <a href="https://sites.google.com/view/estherdelesalle/home">Esther Delesalle</a>, and <a href="http://www.thomascalvo.com/">Thomas Calvo</a></div>
+  <div class="venue">Work in progress</div>
+  <div class="links">
+    <a href="mailto:alessandro.giacardi@uniroma1.it" class="gray">Draft upon request</a>
+  </div>
+</div>
+
+
+</section>
