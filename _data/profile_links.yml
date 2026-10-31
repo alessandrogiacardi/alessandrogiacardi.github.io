@@ -1,0 +1,19 @@
+# Footer links. Change labels/URLs here; keep icon names unless replacing a logo.
+- label: Google Scholar
+  url: https://scholar.google.com/citations?user=PAYDjk8AAAAJ
+  icon: icon-scholar
+- label: ORCID
+  url: https://orcid.org/0009-0006-1002-5350
+  icon: icon-orcid
+- label: IDEAS/RePEc
+  url: https://ideas.repec.org/f/pgi467.html
+  icon: icon-repec
+- label: ResearchGate
+  url: https://www.researchgate.net/profile/Alessandro-Giacardi
+  icon: icon-researchgate
+- label: GitHub
+  url: https://github.com/alessandrogiacardi
+  icon: icon-github
+- label: LinkedIn
+  url: https://www.linkedin.com/in/alessandro-giacardi/
+  icon: icon-linkedin

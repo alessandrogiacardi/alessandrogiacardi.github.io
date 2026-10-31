@@ -1,12 +1,28 @@
 ---
-layout: archive
+layout: academic
 title: "Teaching"
 permalink: /teaching/
-author_profile: true
+author_profile: false
+description: "Teaching experiences of Alessandro Giacardi."
 ---
+<div class="page-heading">
+  <p class="eyebrow">Academic activities</p>
+  <h1>Teaching</h1>
+  <p>Teaching experiences will be added here.</p>
+</div>
 
-{% include base_path %}
+{% comment %}
+HOW TO ADD A TEACHING EXPERIENCE
+1. Copy the article example below this comment block.
+2. Replace the example text with your course, institution, role and dates.
+3. Remove the "Teaching experiences will be added here." paragraph above.
+4. Add another article for each additional course. Put the latest first.
+The example is inside a Liquid comment, so it will not appear on the website.
 
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+<article class="paper teaching-entry">
+  <h2>Course title</h2>
+  <p class="venue">Institution · Academic year</p>
+  <p class="coauthors">Teaching role</p>
+  <p>Describe the course and your teaching responsibilities.</p>
+</article>
+{% endcomment %}

@@ -1,51 +1,22 @@
 ---
+layout: academic
 permalink: /
 title: "Alessandro Giacardi"
-excerpt: "About me"
-author_profile: true
-redirect_from: 
+description: "Development economist studying adaptation to shocks, risk perception, and food insecurity. PhD Candidate at Sapienza University of Rome."
+author_profile: false
+redirect_from:
   - /about/
   - /about.html
 ---
-
-I'm a **PhD Candidate in [Development Economics](https://phd.uniroma1.it/web/SOCIAL-AND-ECONOMIC-SCIENCES_nD3759_EN.aspx)** at Sapienza University of Rome, and a **Research Fellow** at the 
-[Food Insecurity and Poverty Observatory Lab](https://www.cursa.it/project/progetto-osservatorio-sullinsicurezza-alimentare-nella-citta-metropolitana-di-roma-capitale-2022/).
-
-My broader research interests lie in the **micro-level determinants and channels of adaptation to co-variate shocks**, with particular attention to risk perception, gendered dynamics, and local risk management mechanisms.
-
-In 2025/2026, I visited the Nova School of Business and Economics (NOVA Sbe), hosted by the NOVAFRICA Knowledge center. In 2024, I visited the Paris School of Economics (PSE) within the Development Group.
-
-📋 [List of dev/agri/envi conferences](https://docs.google.com/spreadsheets/d/1qkU_YiUGi4qB43KIGUyaJ2FUsheD_ldyCapBxzrLc3I/edit?usp=sharing) 
-— please contribute!
-
-When I'm not working, you can find me cooking, rowing, or tackling Arabic.
-
----
-
-<div style="display:flex; align-items:flex-start; gap:2em; flex-wrap:wrap; margin-top:1em;">
-
-  <div style="flex:1; min-width:200px;">
-    <strong>Contact</strong><br>
-    alessandro.giacardi[at]uniroma1.it<br>
-    giacardi.alessandro[at]gmail.com
-    <p style="font-size:0.82em; color:#777; margin-top:0.4em;">
-      Department of Social Sciences and Economics<br>
-      Sapienza University of Rome<br>
-      Piazzale Aldo Moro 5, 00185 Rome, Italy
-    </p>
-  </div>
-
-  <div style="flex:1; min-width:200px;">
-    <a href="https://showyourstripes.info/s/europe/italy" target="_blank">
-      <img src="/images/italy_stripes.png"
-           alt="Warming stripes for Italy, 1850–2024"
-           style="width:100%; border-radius:4px; display:block;">
-    </a>
-    <p style="font-size:0.75em; color:#aaa; margin-top:0.35em; text-align:center;">
-      Warming stripes for Italy, 1850–2024 ·
-      <a href="https://showyourstripes.info" target="_blank">#ShowYourStripes</a>
-      · Ed Hawkins · <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>
-    </p>
-  </div>
-
+<section class="hero" aria-labelledby="intro-title">
+<div class="hero-copy">
+<p class="eyebrow">Development economics</p>
+<h1 id="intro-title">Alessandro Giacardi</h1>
+<p class="position">PhD Candidate at Sapienza University of Rome</p>
+<p>I study how people and firms adapt to shared shocks, with particular attention to risk perception, gender dynamics, and local risk management.</p>
+<p>I am a PhD Candidate in <a href="https://phd.uniroma1.it/web/SOCIAL-AND-ECONOMIC-SCIENCES_nD3759_EN.aspx">Development Economics</a> at Sapienza and a Research Fellow at the <a href="https://www.cursa.it/project/progetto-osservatorio-sullinsicurezza-alimentare-nella-citta-metropolitana-di-roma-capitale-2022/">Food Insecurity and Poverty Observatory Lab</a>.</p>
+<div class="actions"><a class="button primary" href="{{ '/research/' | relative_url }}">Explore research →</a>{% if site.cv_path != empty and site.cv_path %}<a class="cv-link" href="{{ site.cv_path | relative_url }}">CV <span class="filetype">PDF</span></a>{% endif %}</div>
 </div>
+<figure class="portrait"><img src="{{ '/images/profile.jpg' | relative_url }}" alt="Alessandro Giacardi" width="250" height="300"><figcaption>Sapienza University of Rome · he/his</figcaption></figure>
+</section>
+<section class="section about-grid" aria-label="Background and resources"><div><p class="eyebrow">A little more about me</p><h2>Beyond the papers</h2><p>In 2025/2026, I visited NOVA School of Business and Economics, hosted by NOVAFRICA. In 2024, I visited the Paris School of Economics within the Development Group.</p><p>Outside work, you can find me cooking, rowing, or tackling Arabic.</p></div><div class="resource"><p class="eyebrow">For the research community</p><h3>Find your next conference</h3><p>A shared list of development, agricultural, and environmental economics conferences. Contributions welcome.</p><a href="https://docs.google.com/spreadsheets/d/1qkU_YiUGi4qB43KIGUyaJ2FUsheD_ldyCapBxzrLc3I/edit?usp=sharing">Open the conference list ↗</a></div></section>
