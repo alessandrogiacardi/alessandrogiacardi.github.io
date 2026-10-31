@@ -23,9 +23,16 @@
 <footer class="footer wrap" id="contact">
 <div class="footer-top"><div><p class="eyebrow">Get in touch</p><h2>Contact</h2><a href="mailto:alessandro.giacardi@uniroma1.it">alessandro.giacardi@uniroma1.it</a><br><a href="mailto:giacardi.alessandro@gmail.com">giacardi.alessandro@gmail.com</a></div>
 <address>Department of Social Sciences and Economics<br>Sapienza University of Rome<br>Piazzale Aldo Moro 5<br>00185 Rome, Italy</address></div>
+{% unless page.permalink == '/' %}
 <div class="profiles" aria-label="Academic and professional profiles">
-{% for profile in site.data.profile_links %}<a href="{{ profile.url | escape }}"><span class="profile-icon {{ profile.icon }}" aria-hidden="true"></span><span>{{ profile.label | escape }}</span></a>{% endfor %}
+  {% for profile in site.data.profile_links %}
+    <a href="{{ profile.url | escape }}">
+      <span class="profile-icon {{ profile.icon }}" aria-hidden="true"></span>
+      <span>{{ profile.label | escape }}</span>
+    </a>
+  {% endfor %}
 </div>
+{% endunless %}
 <figure class="stripes"><a href="https://showyourstripes.info/s/europe/italy"><img src="{{ '/images/italy_stripes.png' | relative_url }}" alt="Warming stripes for Italy, 1850–2024" loading="lazy"></a><figcaption>Italy, 1850–2024 · <a href="https://showyourstripes.info">#ShowYourStripes</a> · Ed Hawkins · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></figcaption></figure>
 <p class="copyright">© {{ 'now' | date: '%Y' }} Alessandro Giacardi · Hosted on GitHub Pages</p>
 </footer>
