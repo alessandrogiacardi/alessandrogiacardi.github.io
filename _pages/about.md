@@ -70,7 +70,7 @@ redirect_from:
 
     <p>I am a PhD Candidate in <a href="https://phd.uniroma1.it/web/SOCIAL-AND-ECONOMIC-SCIENCES_nD3759_EN.aspx">Development Economics</a> at Sapienza University of Rome and a Research Fellow at the <a href="https://www.cursa.it/project/progetto-osservatorio-sullinsicurezza-alimentare-nella-citta-metropolitana-di-roma-capitale-2022/">Food Insecurity and Poverty Observatory Lab</a>.</p>
 
-    <p>I am an applied microeconomist working in development economics, with interests in adaptation strategies, agriculture, the environment, household decisions, and food security. I study how people and firms adapt to covariate shocks, with particular attention to risk perception, gender dynamics, and local risk management. My work spans Sub-Saharan Africa (Senegal and Uganda), Latin America (Mexico), Asia (China), and Italy.</p>
+    <p> My research focuses on applied micro and development economics, at the intersection of adaptation strategies to climate change, agriculture, household decisions, and food security. I study how people and firms adapt to covariate shocks, with particular attention to risk perception, gender dynamics, and local risk management. My work spans Sub-Saharan Africa (Senegal and Uganda), Latin America (Mexico), Asia (China), and Italy.</p>
 
     <div class="actions">
       <a class="button primary" href="{{ '/research/' | relative_url }}">Explore research →</a>
